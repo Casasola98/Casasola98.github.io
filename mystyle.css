@@ -1,0 +1,98 @@
+body {
+    height:100%;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: row; /* Safari 6.1+ */
+    display: flex;
+    flex-direction: row;
+    background: darkslategrey;
+}
+
+.botonMenu {
+    margin: 15px 20px;
+    color: aliceblue;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botonMenu2 {
+    margin: 21px 15px 0px;
+    color: aliceblue;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cuerpo {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: row; /* Safari 6.1+ */
+    display: flex;
+    flex-direction: row;
+}
+
+.barra {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: column; /* Safari 6.1+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(111, 177, 177);
+    width: 260px;
+}
+
+.muro {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: column; /* Safari 6.1+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.foto {
+    margin: 10px 10px 0px;
+    width:100px;
+    height:100px;
+}
+
+.nombre {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.texto {
+    margin: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagenMuro {
+    width: 60%;
+}
+
+.pdf {
+    width: 60%;
+    height: 800px;
+}
+
+.tituloCuerpo {
+    margin: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.descripcionCuerpo {
+    margin: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
