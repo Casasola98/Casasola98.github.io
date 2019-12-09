@@ -21,9 +21,7 @@ body {
 .botonMenu {
     margin: 15px 20px;
     color: aliceblue;
-    text-align: center;
-    height: fit-content;
-    width: fit-content;
+    width: 100%;
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -38,8 +36,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.botonesBarra {
-    float: right;
+.botones {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: row; /* Safari 6.1+ */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .barra {
