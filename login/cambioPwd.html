@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Cambio de Contraseña</title>
+</head>
+
+<body class="psswrd">
+    <div class="botones">
+        <a class="btnBarra" href="login.html">Sign-in</a>
+        <a class="btnBarra" href="signup.html">Sign-up</a>
+    </div>
+    <div class="cuerpo">
+        <form class="cuadroLogin">
+            <h1 class="h3 mb-3 centrar">Cambio de Contraseña</h1>
+            <label for="correo" class="sr-only">Correo</label>
+            <input class="centrar" type="email" id="correo" placeholder="Correo" required autofocus>
+            <label for="oldPwd" class="sr-only">Actual Contraseña</label>
+            <input class="centrar" type="password" id="oldPwd" placeholder="Actual Contraseña" required>
+            <label for="newPwd" class="sr-only">Nueva Contraseña</label>
+            <input class="centrar" type="password" id="newPwd" placeholder="Nueva Contraseña" required>
+            <label for="newPwd2" class="sr-only">Confirme Contraseña</label>
+            <input class="centrar" type="password" id="newPwd2" placeholder="Confirme Contraseña" required>
+            <button class="btn-lg btnLogin centrar" type="submit">Cambiar</button>
+        </form>
+    </div>
+</body>
+
+</html>

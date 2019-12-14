@@ -1,85 +1,86 @@
-
-* { 
+* {
     margin: auto;
 }
 
 body {
-    background-color: darkslategrey; 
+    background-color: darkslategrey;
 }
 
-h1 { 
-    text-align: center; 
+h1 {
+    text-align: center;
     margin-top: 20px;
     font-size: 30pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
 }
 
-#calendario { 
-    text-align: center; 
+#calendario {
+    text-align: center;
     width: 650px;
 }
 
-#diasc { 
-    border-spacing: 6px; 
+#diasc {
+    border-spacing: 6px;
 }
 
-th, td { 
+th,
+td {
     font-size: 14;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 80px; 
-    height: 50px; 
+    width: 80px;
+    height: 50px;
     color: #24817e;
     background: #fdf4f4;
 }
 
-#fechaactual { 
+#fechaactual {
     margin: 10px;
     font-size: 17pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
 }
 
-#buscafecha { 
+#buscafecha {
     margin: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
 }
 
-input, #buscafecha select  { 
-    background: aliceblue; 
-    color: #000000; 
+input,
+#buscafecha select {
+    background: aliceblue;
+    color: #000000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 13pt;
 }
 
-#buscafecha  [type=button] {
-    padding: 5px; 
+#buscafecha [type=button] {
+    padding: 5px;
 }
 
-#buscafecha [type=text]  { 
+#buscafecha [type=text] {
     text-align: center;
 }
 
-#anterior { 
-    float: left; 
+#anterior {
+    float: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14pt;
-    width: 100px; 
+    width: 100px;
     margin-top: 12px;
     color: aliceblue;
 }
 
-#posterior { 
-    float: right; 
+#posterior {
+    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14pt;
-    width: 100px; 
+    width: 100px;
     margin-top: 12px;
     color: aliceblue;
 }
 
-#titulos { 
+#titulos {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24pt;
     color: aliceblue;
