@@ -9,6 +9,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="login.css">
+    <script type="text/javascript" src="login.js"></script>
     <title>Sign-in</title>
 </head>
 
@@ -26,7 +27,7 @@
             <input class="centrar" type="password" id="inputPassword" placeholder="Contraseña" required>
             <a class="link" href="cambioPwd.html">Cambiar contraseña</a>
             <a class="link" href="olvidaPwd.html">¿Olvidó su contraseña?</a>
-            <button class="btn-lg btnLogin centrar" type="submit">Ingresar</button>
+            <button class="btn-lg btnLogin centrar" type="submit" onclick="iniciarSesion()">Ingresar</button>
         </form>
     </div>
 </body>
