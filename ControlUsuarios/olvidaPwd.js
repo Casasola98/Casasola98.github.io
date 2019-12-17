@@ -20,19 +20,10 @@ function validarPwd(passwd) {
     return false;
 }
 
-function iniciarSesion() {
+function olvidaPwd() {
     var correo = document.getElementById("inputEmail").value;
-    var passwd = document.getElementById("inputPassword").value;
 
-    if (passwd.length < 8) {
-        alert("La contraseña debe poseer como mínimo 8 caracteres");
-    }
-    else {
-        if (!validarPwd(passwd)) {
-            alert("La contraseña debe poseer mayúsculas, minúsculas y números");
-        }
-        else {
-            window.location.href = "portal.html?"+correo;
-        }
-    }
+    //Envia el correo
+    if (correo.length > 0)
+        alert("Un email con una contraseña temporal ha sido enviado a correo");
 }

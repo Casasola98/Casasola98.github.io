@@ -20,19 +20,16 @@ function validarPwd(passwd) {
     return false;
 }
 
-function iniciarSesion() {
-    var correo = document.getElementById("inputEmail").value;
-    var passwd = document.getElementById("inputPassword").value;
+function cambioPwd() {
+    var oldPwd = document.getElementById("oldPwd").value;
+    var newPwd = document.getElementById("newPwd").value;
+    var newPwd2 = document.getElementById("newPwd2").value;
 
-    if (passwd.length < 8) {
-        alert("La contraseña debe poseer como mínimo 8 caracteres");
-    }
-    else {
-        if (!validarPwd(passwd)) {
+    if (oldPwd.length > 0 && newPwd.length > 0 && newPwd2.length > 0)
+        if (newPwd != newPwd2)
+            alert("La nueva contraseña no concuerda con su confirmación");
+        else if (newPwd.length < 8)
+            alert("La contraseña debe poseer como mínimo 8 caracteres");
+        else if (!validarPwd(newPwd))
             alert("La contraseña debe poseer mayúsculas, minúsculas y números");
-        }
-        else {
-            window.location.href = "portal.html?"+correo;
-        }
-    }
 }

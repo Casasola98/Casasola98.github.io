@@ -20,19 +20,19 @@ function validarPwd(passwd) {
     return false;
 }
 
-function iniciarSesion() {
+function registro() {
+    var nombre = document.getElementById("nombre").value;
+    var apellido = document.getElementById("apellido").value;
     var correo = document.getElementById("inputEmail").value;
     var passwd = document.getElementById("inputPassword").value;
+    var celular = document.getElementById("celular").value;
+    var birthd = document.getElementById("birthd").value;
 
-    if (passwd.length < 8) {
-        alert("La contraseña debe poseer como mínimo 8 caracteres");
-    }
-    else {
-        if (!validarPwd(passwd)) {
+    if (nombre.length > 0 && apellido.length > 0 && correo.length > 0 &&
+        passwd.length > 0 && celular.length > 0 && birthd.length > 0) {
+        if (passwd.length < 8)
+            alert("La contraseña debe poseer como mínimo 8 caracteres");
+        else if (!validarPwd(passwd))
             alert("La contraseña debe poseer mayúsculas, minúsculas y números");
-        }
-        else {
-            window.location.href = "portal.html?"+correo;
-        }
     }
 }

@@ -15,23 +15,14 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="login.css">
-    <script type="text/javascript" src="olvidaPwd.js"></script>
-    <title>¿Olvidó su contraseña?</title>
+    <script type="text/javascript" src="portal.js"></script>
+    <title>Portal</title>
 </head>
 
-<body class="psswrd">
+<body onload="cargarPortal()">
     <div class="botones">
-        <a class="btnBarra" href="login.html">Sign-in</a>
-        <a class="btnBarra" href="signup.html">Sign-up</a>
-    </div>
-    <div class="cuerpo">
-        <form class="cuadroLogin" onsubmit="return false">
-            <img class="centrar imagen" src="images/vader.png">
-            <h1 class="h3 mb-3 centrar">¿Olvidó su contraseña?</h1>
-            <label for="inputEmail" class="sr-only">Correo</label>
-            <input class="centrar" type="email" id="inputEmail" placeholder="Correo" required autofocus>
-            <button class="btn-lg btnLogin centrar" type="submit" onclick="olvidaPwd()">Enviar</button>
-        </form>
+        <label class="nombre" id="usuNombre"></label>
+        <img class="logoUsu" src="images/vader.png">
     </div>
 </body>
 
