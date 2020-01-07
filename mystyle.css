@@ -1,8 +1,8 @@
 body {
     height: 100%;
     width: 100%;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px 0px 50px;
 }
 
 a {
@@ -109,6 +109,11 @@ a {
 .pdf {
     width: 60%;
     height: 800px;
+}
+
+.pdf2 {
+    width: 60%;
+    height: 500px;
 }
 
 .tituloCuerpo {
