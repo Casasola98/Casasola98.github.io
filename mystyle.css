@@ -164,3 +164,8 @@ a {
     height: 100%;
     background: cadetblue;
 }
+
+.video {
+    width: 80%;
+    height: auto;
+}
